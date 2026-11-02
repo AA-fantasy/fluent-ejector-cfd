@@ -1,0 +1,5 @@
+# 只装了 pyfluent 的人才需要 pip 装这些；omega.py / doctor.py 只要有 numpy+h5py 就能跑
+ansys-fluent-core==0.43.0
+# 下面两个通常已自带；没有的话:
+numpy>=1.20
+h5py>=3.0
